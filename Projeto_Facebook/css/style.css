@@ -1,0 +1,150 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+html, body{
+	height: 100%;
+}
+
+@font-face{
+	font-family: 'klavika';
+	src: url('../fonts/klavika-bold.otf');
+}
+
+.center{
+	max-width: 1100px;
+	padding: 0 2%;
+	margin: 0 auto;
+}
+
+.clear{
+	clear: both;
+}
+
+header{
+	background-color: #254f85;
+	padding: 8px 0;
+}
+
+.logo{
+	margin-top: 10px;
+	float: left;
+	color: white;
+}
+
+.logo h2{
+	font-family: klavika;
+	font-size: 30px;
+}
+
+form.form-login{
+	float: right;
+}
+
+.form-login .form-element{
+	display: inline-block;
+	margin-right: 15px;
+}
+
+.form-element p{
+	color: white;
+	font-size: 15px;
+}
+
+.form-element input[type=email],
+.form-element input[type=password]{
+	margin-top: 4px;
+	border: 0;
+	height: 20px;
+	padding-left: 5px;
+}
+
+.form-element input[type=submit]{
+	cursor: pointer;
+	padding: 3px 5px;
+	background-color: #3066ab;
+	color: white;
+	border: 2px solid #1d3e69;	
+}
+
+.form-element input[type=submit]:hover{
+	background-color: #1d3e69;
+}
+
+section.main{
+	background: linear-gradient(white, #D3D8E8);
+	padding: 40px 0;
+}
+
+.img-conexoes{
+	float: left;
+	width: 60%;
+
+}
+
+.img-conexoes img{
+	width: 70%;
+	max-width: 100%;
+}
+
+.abrir-conta{
+	float: left;
+	width: 40%;
+}
+
+.abrir-conta h2{
+	color: black;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+.abrir-conta h3{
+	font-size: 19px;
+	color: rgb(30, 30, 30);
+	margin-top: 10px;
+}
+
+form.criar-conta{
+	margin-top: 10px;
+}
+
+.w50{
+	width: 50%;
+	padding: 0 5px;
+	float: left;
+}
+
+.w100{
+	width: 100%;
+	padding: 0 5px;
+	float: left;
+}
+
+form.criar-conta input{
+	width: 100%;
+	margin-top: 8PX;
+}
+
+form.criar-conta input[type=email],
+form.criar-conta input[type=text],
+form.criar-conta input[type=password]{
+	height: 40px;
+	padding-left: 10px;
+	font-size: 20px;
+	border: 1px solid #959eab;
+	border-radius: 5px;
+}
+
+form.criar-conta input[type=submit]{
+	height: 40px;
+	background: linear-gradient(#67ae55, #578843);
+	border: 0;
+	color: white;
+	font-size: 25px;
+	cursor: pointer;
+	max-width: 200px;
+	border-radius: 5px;
+}
