@@ -136,6 +136,7 @@
 		</div><!--center-->
 	</section><!--linguas-->
 
+
 	<section class="outros">
 		<div class="center">
 			<a href="#">Conversas</a>
@@ -145,8 +146,8 @@
 			<a href="#">Outros</a>
 			<a href="#">Politica</a>
 			<a href="#">Tudo</a>
-		</div><!--center-->
-	</section><!--outros-->
+		</div>
+	</section>
 
 	<section class="copyright">
 		<div class="center">
