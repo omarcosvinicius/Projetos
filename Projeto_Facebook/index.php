@@ -89,7 +89,7 @@
 							<option value="10">Outubro</option>
 							<option value="11">Novembro</option>
 							<option value="12">Dezembro</option>
-						</select><!--nascimento-->
+						</select><!--nascimento-->						
 						<select name="nascimento-ano" class="nascimento">
 							<?php
 								for($i = 1960; $i <= 2023; $i++){
@@ -97,6 +97,18 @@
 							<option value="<?php echo $i; ?>"><?php echo $i; ?></option>
 							<?php } ?>
 						</select><!--nascimento-->
+						<div class="clear"></div>
+					</div><!--w100-->
+					<div class="w100">
+						<div class="input-radio">
+							<input type="radio" value="feminino" name="sexo" />
+							<h2>Feminino</h2>
+													
+						</div><!--input-radio-->
+						<div class="input-radio">
+							<input type="radio" value="masculino" name="sexo" />
+							<h2>Masculino</h2>	
+						</div><!--input-radio-->
 						<div class="clear"></div>
 					</div><!--w100-->
 
@@ -107,10 +119,39 @@
 					<div class="clear"></div>
 				</form><!--criar-conta-->
 
-
 			</div><!--abrir-conta-->
 			<div class="clear"></div>
 		</div><!--center-->
 	</section><!--main-->
+
+	<section class="linguas">
+		<div class="center">
+			<a class="selected-lingua" href="#">Português (BR)</a>
+			<a href="#">Inglês</a>
+			<a href="#">Alemão</a>
+			<a href="#">Chinês</a>
+			<a href="#">Turco</a>
+			<a href="#">Coreano</a>
+			<a href="#">Espanhol</a>
+		</div><!--center-->
+	</section><!--linguas-->
+
+	<section class="outros">
+		<div class="center">
+			<a href="#">Conversas</a>
+			<a href="#">Idolos</a>
+			<a href="#">Noticias</a>
+			<a href="#">Ajuda</a>
+			<a href="#">Outros</a>
+			<a href="#">Politica</a>
+			<a href="#">Tudo</a>
+		</div><!--center-->
+	</section><!--outros-->
+
+	<section class="copyright">
+		<div class="center">
+			<h3>Facebook 2023 ©</h3>
+		</div><!--center-->
+	</section><!--copyright-->
 </body>
 </html>

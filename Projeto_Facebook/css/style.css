@@ -76,7 +76,7 @@ form.form-login{
 
 section.main{
 	background: linear-gradient(white, #D3D8E8);
-	padding: 40px 0;
+	padding: 20px 0;
 }
 
 .img-conexoes{
@@ -86,7 +86,7 @@ section.main{
 }
 
 .img-conexoes img{
-	width: 70%;
+	width: 60%;
 	max-width: 100%;
 }
 
@@ -158,5 +158,84 @@ form .w100 h2{
 
 form select.nascimento{
 	float: left;
-	margin-top: 7px;
+	margin-top: ;
+}
+
+.input-radio{
+	margin: 12px 10px;
+	float: left;
+}
+
+.input-radio h2{
+	display: inline-block;
+}
+
+.input-radio input[type=radio]{
+	width: auto; !important;
+	display: inline-block;
+}
+
+section.linguas{
+	padding: 15px 0;
+	background: white;
+}
+
+section.linguas a{
+	font-size: 15px;
+	padding-right: 12px;
+	color: #365899;
+	text-decoration: none;
+}
+
+section.linguas a.selected-lingua{
+	color: #737373;
+	font-weight: bold;
+}
+
+section.linguas .center{
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #ccc;
+}
+
+section.outros{
+	background: white;
+}
+
+section.outros a{
+	font-size: 15px;
+	padding-right: 12px;
+	color: #365899;
+	text-decoration: none;
+}
+section.outros .center{
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-bottom: 10px;
+}
+
+section.copyright{
+	background: white;
+}
+
+section.copyright h3{
+	font-size: 15px;
+	font-weight: normal;
+	padding-right: 12px;
+	color: #365899;
+}
+
+section.copyright .center{
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-bottom: 10px;
+}
+
+section.linguas a:hover{
+	text-decoration: underline;
+}
+
+section.outros a:hover{
+	text-decoration: underline;
 }
