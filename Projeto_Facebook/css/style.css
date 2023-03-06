@@ -219,11 +219,12 @@ section.copyright{
 	background: white;
 }
 
-section.copyright h3{
+section.copyright a{
 	font-size: 15px;
 	font-weight: normal;
 	padding-right: 12px;
 	color: #365899;
+	text-decoration: none;
 }
 
 section.copyright .center{
@@ -237,5 +238,9 @@ section.linguas a:hover{
 }
 
 section.outros a:hover{
+	text-decoration: underline;
+}
+
+section.copyright a:hover{
 	text-decoration: underline;
 }
