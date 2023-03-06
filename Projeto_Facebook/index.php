@@ -70,7 +70,11 @@
 					<div class="w100">
 						<h2>Data de Nascimento</h2>
 						<select name="nascimento-dia" class="nascimento">
-							<option value="1">1</option>
+							<?php
+								for($i = 1; $i <= 31; $i++){
+							?>
+							<option value="<?php echo $i; ?>"><?php echo $i; ?></option>
+							<?php } ?>
 						</select><!--nascimento-->
 						<select name="nascimento-mes" class="nascimento">
 							<option value="0">Junho</option>
@@ -78,6 +82,7 @@
 						<select name="nascimento-ano" class="nascimento">
 							<option value="0">1999</option>
 						</select><!--nascimento-->
+						<div class="clear"></div>
 					</div><!--w100-->
 
 					<div class="w100">

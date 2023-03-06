@@ -98,11 +98,12 @@ section.main{
 .abrir-conta h2{
 	color: black;
 	font-size: 35px;
-	font-weight: bold;
+	
 }
 
 .abrir-conta h3{
 	font-size: 19px;
+	
 	color: rgb(30, 30, 30);
 	margin-top: 10px;
 }
@@ -147,4 +148,15 @@ form.criar-conta input[type=submit]{
 	cursor: pointer;
 	max-width: 200px;
 	border-radius: 5px;
+}
+
+form .w100 h2{
+	margin-top: 12px;
+	color: #1d2129;
+	font-size: 19px;
+}
+
+form select.nascimento{
+	float: left;
+	margin-top: 7px;
 }
