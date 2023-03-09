@@ -65,13 +65,13 @@ form.form-login{
 .form-element input[type=submit]{
 	cursor: pointer;
 	padding: 3px 5px;
-	background-color: #3066ab;
+	background-color: #254f85;
 	color: white;
-	border: 2px solid #1d3e69;	
+	border: 2px solid #1f4473;	
 }
 
 .form-element input[type=submit]:hover{
-	background-color: #1d3e69;
+	background-color: #1f4473;
 }
 
 section.main{
@@ -243,4 +243,55 @@ section.outros a:hover{
 
 section.copyright a:hover{
 	text-decoration: underline;
+}
+
+@media screen and (max-width: 768px){
+
+	.logo{
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+
+	form.form-login{
+		margin-top: 15px;
+		display: inline-block;
+		float: none;
+		width: 100%;
+		text-align: center;
+
+	}
+
+	.form-login .form-element{
+		display: block;
+		margin: 10px 0;
+	}
+
+	.form-element p{
+		color: white;
+		font-size: 15px;
+	}
+
+	.form-element input[type=email],
+	.form-element input[type=password]{
+		margin-top: 4px;
+		border: 0;
+		height: 20px;
+		padding-left: 5px;
+		width: 100%;
+		max-width: 300px;
+	}
+
+	.form-element input[type=submit]{
+		width: 100%;
+		max-width: 150px;
+	}
+
+	.img-conexoes{
+		display: none;
+	}
+
+	.abrir-conta{
+		width: 100%;
+	}
 }

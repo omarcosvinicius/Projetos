@@ -133,6 +133,11 @@
 			<a href="#">Turco</a>
 			<a href="#">Coreano</a>
 			<a href="#">Espanhol</a>
+			<a href="#">Inglês</a>
+			<a href="#">Alemão</a>
+			<a href="#">Chinês</a>
+			<a href="#">Turco</a>
+			<a href="#">Coreano</a>
 		</div><!--center-->
 	</section><!--linguas-->
 
