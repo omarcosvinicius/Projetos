@@ -51,3 +51,8 @@ body{
 	position: absolute;
 	bottom: 0;
 }
+
+.attribution a{
+	text-decoration: none;
+	color: hsla(216, 95%, 50%, 1.0);
+}
