@@ -21,7 +21,7 @@ html, body{
 /***************/
 
 header{
-	padding: 10px 0;
+	padding: 10px 2%;
 	background-color: #72b8b8;
 }
 
@@ -41,5 +41,17 @@ header{
 	background-image: url('../assets/logo-2.png');
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
+}
+
+@media screen and (max-width: 510px){
+
+	header{
+		text-align: center;
+	}
+	.logo-1, .logo-2{
+		margin-top: 10px;
+		display: inline-block;
+		float: none;
+	}
 }
 
