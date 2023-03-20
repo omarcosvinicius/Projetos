@@ -1,4 +1,4 @@
-*{
+ 	*{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
@@ -15,13 +15,13 @@ html, body{
 
 .container{
 	width: 100%;
-	max-width: 1200px;
+	max-width: 1080px;
 	margin: 0 auto;
 }
 /***************/
 
 header{
-	padding: 10px 2%;
+	padding: 10px 2% 30px 2%;
 	background-color: #72b8b8;
 }
 
@@ -43,12 +43,43 @@ header{
 	background-size: 100% 100%;
 }
 
+section.cover-form{
+	width: 100%;
+	padding: 0 2%;
+}
+
+.bg{
+	height: 500px;
+	background-size: cover;
+	background-position: center;
+	background-image: url('../assets/banner.jpg');
+}
+
+.form-container{
+	float: right;
+	margin-right: 40px;
+	width: 350px;
+	/*Efeito para ficar sob o header*/
+	height: 110%;
+	position: relative;
+	top: -5%;
+	background-color: white;
+}
+
+.form-container h2{
+	padding: 30px 15px;
+	color: black;
+	font-size: 18px;
+	font-weight: normal;
+	background-color: rgb(234, 236, 239);
+}
 @media screen and (max-width: 510px){
 
 	header{
 		text-align: center;
 	}
-	.logo-1, .logo-2{
+	/* Aplica estilo em tudo que começar com "logo"*/
+	[class^="logo"]{
 		margin-top: 10px;
 		display: inline-block;
 		float: none;
