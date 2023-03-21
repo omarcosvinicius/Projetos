@@ -76,7 +76,7 @@ section.cover-form{
 
 .form-container form{
 	margin-top: 8px;
-	padding: 17px;
+	padding: 15px;
 }
 
 .form-container form p{
@@ -86,7 +86,7 @@ section.cover-form{
 .form-container form input[type=text]{
 	width: 100%;
 	border: 1px solid #ccc;
-	height: 30px;
+	height: 45px;
 }
 
 
