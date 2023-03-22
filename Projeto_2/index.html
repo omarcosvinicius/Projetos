@@ -11,6 +11,7 @@
 	<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
 	<link rel="manifest" href="assets/site.webmanifest">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 	<title>Kirscan Cars</title>
 </head>
 <body>
@@ -30,22 +31,27 @@
 				<form>
 					<div class="form-wraper">
 						<p>*Nome Completo</p>
-						<input type="text" name="nome" value="Nome">
+						<input type="text" name="nome" required>
 					</div><!--form-wraper-->
 
 					<div class="form-wraper">
-						<p>E-mail</p>
-						<input type="text" name="email" value="E-mail">
+						<p>*E-mail</p>
+						<input type="text" name="email">
 					</div><!--form-wraper-->
 						
 					<div class="form-wraper">
 						<p>Telefone</p>
-						<input type="text" name="telefone" value="Telefone">
+						<input type="text" name="telefone">
 					</div><!--form-wraper-->	
 
 					<div class="form-wraper">
 						<input type="submit" name="acao" value="Enviar">
 					</div><!--form-wraper-->
+
+					<div class="form-wraper">
+						<p>* Campos Obrigatórios</p>
+					</div><!--form-wraper-->
+					
 				</form>
 			</div><!--form-container-->
 		</div><!--container bg-->
