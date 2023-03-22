@@ -1,8 +1,18 @@
- 	*{
+ *{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 	font-family: 'Open Sans', sans-serif;
+}
+
+@font-face{
+	font-family: Sports_World;
+	src: url(../fonts/sports_world/sports_world.ttf);
+}
+
+@font-face{
+	font-family: Lastica;
+	src: url(../fonts/lastica/lastica.ttf);
 }
 
 html, body{
@@ -119,15 +129,37 @@ section.cover-form{
 
 section.chamada{
 	width: 100%;
-	padding: 100px 0;
+	padding: 70px 0;
 	background-color: #a2b8b8;
 	text-align: center;
+}
+
+section.chamada h2{
+	padding: 0 50px;
+	font-size: 25px;
+	color: black;
+	display: inline-block;
+}
+
+section.chamada p{
+	font-size: 25px;
+}
+
+section .sports_world{
+	font-family: Sports_World;
+	font-size: 25px;
+}
+
+section .lastica{
+	font-family: Lastica;
+	font-size: 20px;
 }
 @media screen and (max-width: 510px){
 
 	header{
 		text-align: center;
 	}
+
 	/* Aplica estilo em tudo que começar com "logo"*/
 	[class^="logo"]{
 		margin-top: 10px;
