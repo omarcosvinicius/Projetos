@@ -72,7 +72,7 @@ section.cover-form{
 	color: black;
 	font-size: 18px;
 	font-weight: normal;
-	background-color: rgb(234, 236, 239);
+	background-color: rgba(234, 236, 239, 0.7);
 }
 
 .form-container form{
