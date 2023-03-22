@@ -115,6 +115,7 @@ section.cover-form{
 .form-wraper:last-child{
 	margin-top: 15px;
 }
+
 @media screen and (max-width: 510px){
 
 	header{
@@ -127,4 +128,3 @@ section.cover-form{
 		float: none;
 	}
 }
-
