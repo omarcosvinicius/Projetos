@@ -60,20 +60,20 @@ section.cover-form{
 }
 
 .bg{
-	height: 490px;
+	position: relative;
+	height: 500px;
 	background-size: cover;
 	background-position: center;
 	background-image: url('../assets/banner.jpg');
 }
 
 .form-container{
-	float: right;
-	margin-right: 40px;
+	position: absolute;
+	right: 30px;
+	top: -2.5%;
 	width: 350px;
 	/*Efeito para ficar sob o header*/
-	height: 110%;
-	position: relative;
-	top: -5%;
+	height: 105%;
 	background-color: rgba(255, 255, 255, 0.7);
 	box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.46);
 }
@@ -128,22 +128,32 @@ section.cover-form{
 }
 
 section.chamada{
-	width: 100%;
-	padding: 70px 0;
-	background-color: #a2b8b8;
+	width: 100%;	
 	text-align: center;
 }
 
+section.chamada .container{
+	background-color: #a2b8b8;
+	padding: 40px 0 30px 0;
+}
+
 section.chamada h2{
-	padding: 0 50px;
+	padding: 10px 0;
+	max-width: 700px;
+	width: 96%;
 	font-size: 25px;
 	color: black;
 	display: inline-block;
 }
 
 section.chamada p{
-	font-size: 25px;
+	width: 96%;
+	max-width: 780px;
+	display: inline-block;	
+	margin-top: 10px;
+	font-size: 19px;
 }
+
 
 section .sports_world{
 	font-family: Sports_World;
