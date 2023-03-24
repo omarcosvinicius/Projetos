@@ -56,7 +56,6 @@ header{
 
 section.cover-form{
 	width: 100%;
-	padding: 0 2%;
 }
 
 .bg{
@@ -134,7 +133,7 @@ section.chamada{
 
 section.chamada .container{
 	background-color: #a2b8b8;
-	padding: 40px 0 30px 0;
+	padding: 70px 0 70px 0;
 }
 
 section.chamada h2{
@@ -175,5 +174,21 @@ section .lastica{
 		margin-top: 10px;
 		display: inline-block;
 		float: none;
+	}
+}
+
+@media screen and (max-width: 960px){
+	.bg{
+		text-align: center;
+		padding: 40px 0;
+		height: auto;
+	}
+
+	.form-container{
+		width: 96%;
+		height: auto;
+		max-width: 400px;
+		position: static;
+		display: inline-block;
 	}
 }
