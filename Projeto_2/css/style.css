@@ -216,11 +216,10 @@ section .lastica{
 .alter-2,
 .alter-2 p{
 	text-align: center;
-	font-size: 20px;
+	font-size: 18px;
 }
 
 footer{
-	
 	background-color: #72b8b8;
 	text-align: center;
 	padding: 10px 0;
