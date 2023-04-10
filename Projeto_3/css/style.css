@@ -1,0 +1,53 @@
+/* Reset */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+
+html, body{
+	height: 100%;
+}
+/* Fim Reset */
+
+/* DIV's Gerais */
+.clear{
+	clear: both;
+}
+
+.container{
+	max-width: 1080px;
+	margin: 0 auto;
+}
+/* Fim DIV's Gerais */
+
+header{
+	width: 100%;
+	height: 90vh;
+	max-height: 700px;
+	padding: 30px 2%;
+	background-image: url('../assets/bg_header.jpg');
+	background-size: cover;
+	background-position: center;
+	
+}
+
+header nav{
+	float: right;
+}
+
+header nav ul{
+	list-style-type: none;
+}
+
+header nav li{
+	float: left;
+	margin: 0 15px;
+}
+
+header li a{
+	color: white;
+	text-decoration: none;
+}
+
