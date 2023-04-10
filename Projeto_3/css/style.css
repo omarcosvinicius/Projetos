@@ -17,7 +17,7 @@ html, body{
 }
 
 .container{
-	max-width: 1080px;
+	max-width: 1280px;
 	margin: 0 auto;
 }
 /* Fim DIV's Gerais */
@@ -27,10 +27,18 @@ header{
 	height: 90vh;
 	max-height: 700px;
 	padding: 30px 2%;
-	background-image: url('../assets/bg_header.jpg');
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url('../assets/bg_header.jpg');
 	background-size: cover;
 	background-position: center;
-	
+}
+
+header .logo{
+	float: left;
+	width: 90px;
+	height: 90px;
+	background-image: url('../assets/logo.png');
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 
 header nav{
@@ -47,7 +55,25 @@ header nav li{
 }
 
 header li a{
+	font-weight: bold;
 	color: white;
 	text-decoration: none;
 }
 
+.chamada1{
+	float: right;
+	margin: 100px 100px;
+	max-width: 550px;
+}
+
+.chamada1 h2{
+	color: white;
+	font-size: 40px;
+	font-weight: normal;
+}
+
+.chamada1 p{
+	color: white;
+	font-size: 15px;
+	margin-top: 10px;
+}
