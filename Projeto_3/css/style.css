@@ -129,6 +129,7 @@ section.sessao1{
 
 section.sessao1 .container{
 	max-width: 800px;
+	height: calc(100% + 30px);
 }
 
 .texto-sessao1{
@@ -182,7 +183,7 @@ section.sessao1 .container{
 
 .device-sessao1{
 	width: 50%;
-	height: 350px;
+	height: 100%;
 	float: left;
 	position: relative;
 	top: -30px;
@@ -215,8 +216,119 @@ section.sessao1 .container{
 }
 
 .sessao2 img{
+	position: relative;
+	top: 70px;
 	width: 100%;
-	margin-top: 40px;
+	margin-top: 10px;
+	-webkit-box-shadow: 0px 0px 35px 0px rgba(0,0,0,0.54);
+	-moz-box-shadow: 0px 0px 35px 0px rgba(0,0,0,0.54);
+	box-shadow: 0px 0px 35px 0px rgba(0,0,0,0.54);
+}
+
+.sessao3{
+	width: 100%;
+}
+
+.part1{
+	color: white;
+	float: left;
+	width: 50%;
+	padding: 140px 0 90px 0;
+	background-color: #0dca71;
+}
+
+.wraper-part1{
+	max-width: 600px;
+	float: right;
+	padding-right: 30px;
+}
+
+.part1 h2{
+	font-weight: 300;
+	font-style: italic;
+	font-size: 25px;
+}
+
+.part1 p{
+	font-size: 17px;
+	margin-top: 10px;
+	line-height: 30px;
+	font-weight: 300;
+}
+
+.part2{
+	float: left;
+	width: 50%;
+	padding: 140px 0 90px 0;
+	background-color: #f5f5f5;
+}
+
+.sobre-autor{
+	float: left;
+	max-width: 600px;
+	padding-left: 30px;
+}
+
+.titulo-autor{
+	float: left;
+	width: 100%;
+}
+
+.wraper-titulo-autor{
+	float: left;
+}
+
+.titulo-autor h2{
+	color: #232323;
+	font-size: 23px;
+	font-weight: 400;
+	padding-right: 20px;
+}
+
+.titulo-autor p{
+	font-size: 13px;
+	font-style: italic;
+	color: #232323;
+	font-weight: 300;
+}
+
+.titulo-autor .img-autor{
+	position: relative;
+	top: -4px;
+	float: left;
+	width: 40px;
+	height: 40px;
+	background-color: gray;
+	border-radius: 20px;
+}
+
+.texto-autor{
+	float: left;
+	width: 100%;
+	margin-top: 10px;
+}
+
+.texto-autor p{
+	color: #232323;
+	font-size: 17px;
+	font-weight: 300;
+}
+
+.slider-bullets{
+	width: 100%;
+	float: left;
+	margin-top: 12px;
+	padding-left: 30px;
+}
+
+.slider-bullets span{
+	float: left;
+	width: 16px;
+	height: 16px;
+	background-color: rgb(200, 200, 200);
+	border-radius: 8px;
+	margin-right: 8px;
+	cursor: pointer;
 }
 
 @media screen and (max-width: 768px){
