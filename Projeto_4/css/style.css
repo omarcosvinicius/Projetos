@@ -18,5 +18,33 @@ html, body{
 	clear: both;
 }
 
+.container{
+	max-width: 1280px;
+	width: 100%;
+	margin: 0 auto;
+}
+
 /* Fim DIV's gerais */
 
+/* Inicio header */
+
+header .logo img{
+	float: left;
+	width: 236px;
+}
+
+header nav{
+	float: right;
+}
+
+header nav ul{
+	list-style-type: none;
+}
+
+header nav ul li{
+	float: left;
+	font-size: 14px;
+	padding: 0 20px;
+	text-transform: uppercase;
+}
+/* Fim header */
