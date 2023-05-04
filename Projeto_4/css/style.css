@@ -220,7 +220,60 @@ section.perfil-container .texto-perfil p{
 
 	section.servicos .container{
 		flex-direction: column;
-		top: -30px;
+		top: -20px;
+	}
+
+	section.servicos .container .box-servico:nth-of-type(1){
+		width: 90%;
+		padding: 30px 2%;
+		max-width: 350px;
+	}
+
+	section.servicos .container .box-servico:nth-of-type(2){
+		width: 94%;
+		padding: 45px 2%;
+		max-width: 400px;
+	}
+
+	section.servicos .container .box-servico:nth-of-type(3){
+		width: 90%;
+		padding: 30px 2%;
+		max-width: 350px;
+	}
+
+	section.perfil-container .perfil-wraper2{
+		text-align: center;
+		display: inline-block;
+	}
+
+	section.perfil-container .img-perfil{
+		width: 80%;
+		height: auto;
+		padding-top: 70%;
+		display: inline-block;
+	}
+
+	section.perfil-container .texto-perfil{
+		margin-top: 15px;
+		display: inline-block;
+		width: 100%;
+		padding: 0 30px;
+	}
+
+
+}
+
+@media screen and (max-width: 580px){
+
+	section.perfil-container .img-perfil{
+		width: 90%;
+		padding-top: 110%;
+	}
+}
+
+@media screen and (max-width: 480px){
+	header .logo img{
+		width: 200px;
 	}
 }
 /* Fim Media Query */
