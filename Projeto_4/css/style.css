@@ -262,18 +262,33 @@ section.perfil-container .texto-perfil p{
 
 /* Início Sessão Videos */
 
-
-/* Fim Sessão Videos */
-
 section.videos{
 	padding: 50px 0;
 }
 
 section.videos .box-video{
 	float: left;
+	position: relative;
 	width: 33.3%;
 	padding-top: calc(33.3% * 0.6);
+	border: 5px solid white;
 }
+
+section.videos iframe{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* Fim Sessão Videos */
+
+/* Inicio Sessão Tratamentos */
+
+
+/* Fim Sessão Tratamentos */
+
 /* Início Media Query */
 
 @media screen and (max-width: 768px){
@@ -334,6 +349,16 @@ section.videos .box-video{
 		padding: 0 30px;
 	}
 
+	section.videos{
+		text-align: center;
+	}
+
+	section.videos .box-video{
+		float: none;
+		width: 70%;
+		display: inline-block;
+		padding-top: calc(70% * 0.6);
+	}
 
 }
 
@@ -342,6 +367,11 @@ section.videos .box-video{
 	section.perfil-container .img-perfil{
 		width: 90%;
 		padding-top: 110%;
+	}
+
+	section.videos .box-video{
+		width: 100%;
+		padding-top: calc(100% * 0.6);
 	}
 }
 
