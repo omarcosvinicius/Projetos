@@ -236,8 +236,10 @@ section.perfil-container .perfil-wraper2{
 section.perfil-container .img-perfil{
 	width: 40%;
 	height: 100%;
-	background-image: url('../assets/perfil.jpg');
-	background-size: 100% 100%;
+	background-image: url('../assets/perfil.png');
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 section.perfil-container .texto-perfil{
@@ -271,7 +273,6 @@ section.videos .box-video{
 	float: left;
 	width: 33.3%;
 	padding-top: calc(33.3% * 0.6);
-	background-color: green;
 }
 /* Início Media Query */
 
