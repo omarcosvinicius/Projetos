@@ -53,15 +53,71 @@ header nav.menu-desktop ul li{
 	text-transform: uppercase;
 }
 
-header nav.menu-desktop ul li a{
+nav.menu-mobile{
+	display: none;
+	float: right;
+	width: 32px;
+	height: 32px;
+	cursor: pointer;
+	background-image: url('../assets/mobile.png');
+	background-position: center;
+	background-size: contain;
+}
+
+nav.menu-mobile:hover ul{
+	opacity: 1;
+
+}
+
+nav.menu-mobile ul{
+	opacity: 0;
+	transition: 1s;
+	background-color: rgba(255, 255, 255, 0.5);
+	position: absolute;
+	left: 0;
+	top: 80px;
+	width: 100%;
+	list-style-type: none;
+	text-align: center;
+}
+
+nav.menu-mobile ul li:hover{
+	background-color: rgb(230, 230, 230);
+}
+
+nav.menu-mobile ul li{
+	transition: 0.4s;
+	border-bottom: 1px solid black;
+	padding: 8px 0;
+}
+
+nav.menu-mobile ul li a{
+	text-decoration: none;
+	color: black;
+}
+
+/*
+nav.menu-mobile ul{
+	z-index: 999;
+	text-align: center;
+	position: absolute;
+	left: 0;
+	top: 60px;
+	width: 100%;
+	background-color: white;
+}
+
+nav.menu-mobile ul li{
+	padding: 8px 0;
+	text-transform: uppercase;
+}
+*/
+
+header ul a{
 	text-decoration: none;
 	color: #595959;
 }
 
-nav.menu-mobile{
-	display: none;
-	float: right;
-}
 /* Fim header */
 
 /* Inicio Sessão Mosaico */
@@ -254,9 +310,15 @@ section.perfil-container .texto-perfil p{
 		max-width: 350px;
 	}
 
+	section.perfil-container .perfil-wraper{
+		padding-top: 0;
+	}
+
 	section.perfil-container .perfil-wraper2{
 		text-align: center;
 		display: inline-block;
+		height: auto;
+		position: static;
 	}
 
 	section.perfil-container .img-perfil{
