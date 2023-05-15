@@ -290,14 +290,20 @@ section.videos iframe{
 
 /* Inicio Sessão Tratamentos */
 
+section.tratamentos{
+	padding: 60px 0;
+	background-color: #ffcec2;
+}
+
 section.tratamentos > h2{
 	font-size: 18px;
-	color: #698293;
+	color: #595959;
 	text-align: center;
 }
 
 section.tratamentos > .container{
-	padding: 30px 0;
+	padding: 60px 0;
+
 }
 
 section.tratamentos .tratamento-container{
