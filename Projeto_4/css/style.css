@@ -34,7 +34,7 @@ header{
 
 header .logo img{
 	float: left;
-	width: 236px;
+	width: 196px;
 }
 
 header nav.menu-desktop{
@@ -139,7 +139,9 @@ header ul a{
 
 .img4{
 	background-image: url('../assets/imagem4.png');
-	background-size: 100% 100%;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 .img5{
@@ -151,7 +153,9 @@ header ul a{
 
 .img6{
 	background-image: url('../assets/imagem6.jpg');
-	background-size: 100% 100%;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 /* Fim Sessão Mosaico */
 
@@ -286,7 +290,35 @@ section.videos iframe{
 
 /* Inicio Sessão Tratamentos */
 
+section.tratamentos > h2{
+	font-size: 18px;
+	color: #698293;
+	text-align: center;
+}
 
+section.tratamentos > .container{
+	padding: 30px 0;
+}
+
+section.tratamentos .tratamento-container{
+	float: left;
+	width: 33.3%;
+}
+
+.tratamento-single{
+	padding: 20px;
+}
+
+.tratamento-single h2{
+	font-size: 18px;
+	color: #595959;
+}
+
+.tratamento-single p{
+	padding: 10px 0;
+	font-size: 13px;
+	color: #4b4b4b;
+}
 /* Fim Sessão Tratamentos */
 
 /* Início Media Query */
