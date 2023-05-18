@@ -3,6 +3,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: 'Kanit', sans-serif;
 }
 
 html, body{
@@ -24,4 +25,75 @@ html, body{
 }
 
 /* Fim DIV's Gerais */
+
+/* Início Header */
+
+header{
+	padding: 20px 2%;
+	height: 120px;
+	background-color: #6948a2;
+}
+
+header .logo{
+	float: left;
+	width: 208px;
+	height: 82px;
+	background-image: url('../assets/otilap-technology-logo.png');
+	background-size: contain;
+
+}
+
+header nav.menu-desktop{
+	float: right;
+	padding: 30px 0;
+}
+
+header nav.menu-desktop ul{
+	list-style-type: none;
+}
+
+header nav.menu-desktop li{
+	float: left;
+	padding: 0 30px;
+	font-style: italic;
+	font-size: 23px;
+
+}
+
+header nav.menu-desktop a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;
+
+}
+
+nav.menu-mobile{
+	display: none;
+}
+
+/* Fim Header */
+
+/* Início Sessão Banner */
+
+section.banner{
+	width: 100%;
+	height: calc(100vh - 120px);
+	background-color: black;
+	background-image: url('../assets/bg.png');
+	background-size: contain;
+	background-position: right top;
+	background-repeat: no-repeat;
+}
+
+/* Fim Sessão Banner */
+
+/* Início Media Query */
+
+@media screen and (max-width: 768px){
+	section.banner{
+		background-position: center;
+	}
+}
+
+/* Fim Media Query */
 
