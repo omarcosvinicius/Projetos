@@ -1,0 +1,27 @@
+/* Reset */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body{
+	height: 100%;
+}
+
+/* Fim Reset */
+
+/* DIV's Gerais */
+
+.clear{
+	clear: both;
+}
+
+.container{
+	max-width: 1280px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+/* Fim DIV's Gerais */
+
