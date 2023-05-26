@@ -85,7 +85,7 @@ nav.menu-mobile:hover ul{
 nav.menu-mobile ul{
 	opacity: 0;
 	transition: 1s;
-	background-color: rgba(255, 255, 255, 0.5);
+	background-color: rgba(0, 0, 0, 0.5);
 	position: absolute;
 	left: 0;
 	top: 80px;
@@ -95,18 +95,18 @@ nav.menu-mobile ul{
 }
 
 nav.menu-mobile ul li:hover{
-	background-color: rgb(230, 230, 230);
+	background-color: rgb(0, 0, 0);
 }
 
 nav.menu-mobile ul li{
 	transition: 0.4s;
-	border-bottom: 1px solid black;
+	border-bottom: 1px solid rgb(230, 230, 230);
 	padding: 8px 0;
 }
 
 nav.menu-mobile ul li a{
 	text-decoration: none;
-	color: black;
+	color: white;
 }
 
 /* Fim Header */
@@ -168,6 +168,35 @@ section.banner a{
 }
 
 /* Fim Sessão Banner */
+
+/* Início Sessão Produtos Destaque */
+
+section.produtos-destaque{
+	padding: 90px 2%;
+}
+
+.line-titulo{
+	position: relative;
+	margin: 0 auto;
+	text-align: center;
+	background-color: black;
+	height: 2px;
+	max-width: 700px;
+}
+
+section.produtos-destaque h2{
+	padding: 0 20px;
+	display: inline-block;
+	position: relative;
+	top: -20px;
+	text-align: center;
+	font-size: 25px;
+	font-style: italic;
+	text-transform: uppercase;
+	background-color: white;
+}
+
+/* Fim Sessão Produtos Destaque */
 
 /* Início Media Query */
 
