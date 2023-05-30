@@ -305,6 +305,10 @@ section.servicos-descricao{
 	vertical-align: bottom;
 }
 
+.half1-wraper a:hover{
+	background-color: #50377a;
+}
+
 .half2{
 	width: 50%;
 	padding: 90px 100px;
@@ -353,6 +357,24 @@ section.servicos-descricao{
 
 /* Início Media Query */
 
+@media screen and (max-width: 1100px){
+
+	.half1{
+		text-align: center;
+	}
+
+	.half1-wraper{
+		text-align: left;
+		padding-right: 0;
+	}
+
+	.half1-wraper a{
+		display: block;
+		margin-left: 0;
+		margin-top: 15px;
+	}
+}
+
 @media screen and (max-width: 850px){
 	.half1-wraper a{
 		display: block;
@@ -369,13 +391,20 @@ section.servicos-descricao{
 	header nav.menu-mobile{
 		display: block;
 	}
-
-
 }
 
 @media screen and (max-width: 768px){
 	section.banner{
 		background-position: center;
+	}
+
+	section.servicos-descricao{
+		flex-direction: column;
+	}
+
+	.half1, .half2{
+		width: 100%;
+		padding: 80px 4%;
 	}
 }
 
