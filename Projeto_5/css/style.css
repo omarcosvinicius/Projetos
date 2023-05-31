@@ -400,15 +400,11 @@ section.contato form{
 }
 
 .input-wraper input[type=submit]{
-	display: inline-block;
-	width: 100px;
-	height: 35px;
 	border: 0;
-	border-radius: 17px;
-	background-color: #6948a2;
-	color: white;
+	display: inline-block;
 	cursor: pointer;
 	text-transform: uppercase;
+	font-style: italic;
 }
 
 .input-wraper input[type=submit]:hover{
@@ -416,6 +412,43 @@ section.contato form{
 }
 
 /* Fim Sessão Contato */
+
+/* Início Footer */
+
+footer{
+	padding: 40px 2%;
+	background-color: #242424;
+}
+
+footer nav{
+	float: left;
+}
+
+footer nav ul{
+	list-style-type: none;
+}
+
+footer nav ul li{
+	float: left;
+	padding: 0 20px;
+}
+
+footer nav a{
+	text-decoration: none;
+	color: white;
+	font-style: italic;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+footer p{
+	float: right;
+	color: white;
+	font-size: 17px;
+	font-style: italic;
+}
+
+/* Fim Footer */
 
 /* Início Media Query */
 
@@ -438,6 +471,7 @@ section.contato form{
 }
 
 @media screen and (max-width: 850px){
+
 	.half1-wraper a{
 		display: block;
 		margin-left: 0;
@@ -446,6 +480,7 @@ section.contato form{
 }
 
 @media screen and (max-width: 800px){
+
 	header nav.menu-desktop{
 		display: none;
 	}
@@ -456,6 +491,7 @@ section.contato form{
 }
 
 @media screen and (max-width: 768px){
+
 	section.banner{
 		background-position: center;
 	}
@@ -468,6 +504,24 @@ section.contato form{
 		width: 100%;
 		padding: 80px 4%;
 	}
+
+	.w50{
+		width: 100%;
+	}
+
+	footer {
+		text-align: center;
+	}
+
+	footer nav{
+		display: none;
+	}
+
+	footer p{
+		float: none;
+	}
+
+	
 }
 
 @media screen and (max-width: 580px){
@@ -494,10 +548,6 @@ section.contato form{
 		left: -22px;
 	}
 
-	section.produtos-destaque .line-titulo h2{
-		text-siz
-	}
-
 	section.produtos-destaque .container{
 		text-align: center;
 	}
@@ -514,6 +564,7 @@ section.contato form{
 }
 
 @media screen and (max-width: 480px){
+
 	.vitrine-destaque{
 		width: 100%;
 	}
