@@ -181,7 +181,7 @@ section.produtos-destaque .container{
 
 
 .line-titulo{
-	max-width: 1400px;
+	max-width: 1280px;
 	margin: 0 auto;
 	position: relative;
 	text-align: center;
@@ -449,6 +449,65 @@ footer p{
 }
 
 /* Fim Footer */
+
+/* * Início Estilo Página Venda * */
+
+/* Início Sessão Venda */
+
+section.venda{
+	padding: 50px 0;
+	min-height: 90%;
+}
+
+.content-venda{
+	margin-top: 40px;
+}
+
+.sidebar{
+	float: left;
+	width: 30%;
+}
+
+.search1 h2{
+	color: black;
+	font-size: 23px;
+	font-weight: normal;
+}
+
+.search1 .barra-preco{
+	width: 300px;
+	height: 20px;
+	background-color: white;
+	border-radius: 20px;
+	border: 1px solid #ccc;
+	margin-top: 8px;
+	position: relative;
+}
+
+.barra-preco-fill{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 30%;
+	height: 20px;
+	background-color: #ccc;
+	border-radius: 20px;
+}
+
+.pointer-barra{
+	width: 26px;
+	height: 26px;
+	position: absolute;
+	cursor: pointer;
+	left: calc(30% - 13px);
+	top: -3px;
+	border-radius: 8px;
+	background-color: rgb(210, 210, 210);
+	border: 1px solid black;
+}
+/* Fim Sessão Venda */
+
+/* * Fim Estilo Página Venda * */
 
 /* Início Media Query */
 
